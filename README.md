@@ -59,7 +59,7 @@ To verify this flexibility, try our method directly on the MNIST tutorials (rand
   </p>
 </div>
 
-### Comparison with Qwen-Image and Qwem-Image-Lightning
+### Comparison with Qwen-Image and Qwen-Image-Lightning
 
 <div align="center">
   <img src="assets/case1.jpg" width="1000" />
