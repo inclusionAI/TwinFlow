@@ -15,8 +15,22 @@
 [![Github Repo](https://img.shields.io/badge/inclusionAI%2FTwinFlow-black?logo=github)](https://github.com/inclusionAI/TwinFlow)&#160;
 <a href="https://arxiv.org/abs/2512.05150" target="_blank"><img src="https://img.shields.io/badge/Paper-b5212f.svg?logo=arxiv" height="21px"></a>
 <a href="https://deepwiki.com/inclusionAI/TwinFlow"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>&#160;
+[![WeChat](https://img.shields.io/badge/WeChat-green?logo=wechat&amp&color=white)](./assets/wechat.png)
 
 </div>
+
+**Join the WeChat Group, feel free to reach out anytime if you have any questions!👇**
+
+<details>
+<summary>👇 WeChat Group QR Code/微信群二维码 👇</summary>
+
+<div align="center">
+  <img src="./assets/wechat.png" width="1000" />
+  <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: bold;">
+  </p>
+</div>
+
+</details>
 
 ## 🧭 Table of Contents
 

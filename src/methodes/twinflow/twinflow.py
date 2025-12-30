@@ -289,8 +289,8 @@ class TwinFlow(torch.nn.Module):
         F_grad = fake_v - real_v
         x_grad = fake_s - real_s
 
-        F_grad = F_grad.to(torch.float32)
-        x_grad = x_grad.to(torch.float32)
+        F_grad = F_grad.to(torch.float32).clamp(min=-1.0, max=1.0)
+        x_grad = x_grad.to(torch.float32).clamp(min=-1.0, max=1.0)
         return x_grad, F_grad
 
     def training_step(
@@ -306,18 +306,7 @@ class TwinFlow(torch.nn.Module):
             x_t, t, tt, c, e, target, sample_masks = self.prepare_inputs(model, x, c, e)
 
         loss, rng_state = 0, torch.cuda.get_rng_state()
-        if sample_masks["adv"].any():
-            with torch.autocast(
-                device_type="cuda",
-                dtype=torch.bfloat16,
-                enabled=True,
-                cache_enabled=False,
-            ):
-                x_wc_t, z_wc_t, F_th_t, den_t = self.forward(
-                    model, x_t, t, tt, **dict(c=c)
-                )
-        else:
-            x_wc_t, z_wc_t, F_th_t, den_t = self.forward(model, x_t, t, tt, **dict(c=c))
+        x_wc_t, z_wc_t, F_th_t, den_t = self.forward(model, x_t, t, tt, **dict(c=c))
 
         # Start update the state of ema model
         if (self.enr != 0.0) or (self.cor != 0.0) or (self.emd != 0.0):
