@@ -131,6 +131,8 @@ Key Advantages:
 
 ### Inference Demo
 
+**For ComfyUI users, please see https://github.com/smthemex/ComfyUI_TwinFlow.**
+
 Install the latest diffusers:
 
 ```bash
