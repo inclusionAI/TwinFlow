@@ -133,7 +133,9 @@ sample:
 
 ### LoRA Training
 
-- LoRA Training (TwinFlow on OpenUni):
+- LoRA Training (TwinFlow on OpenUni), you need to comment L52 and use original transformer in L51:
+
+https://github.com/inclusionAI/TwinFlow/blob/9fc59521017d329ed6aee8046ff71e523a26f68f/src/networks/openuni/openuni_l_internvl3_2b_sana_1_6b_512_hf.py#L51-L52
 
 ```sh
 # 1 order
