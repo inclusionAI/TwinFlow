@@ -23,6 +23,8 @@
 
 <p>👇 WeChat Group QR Code/微信群二维码 👇</p>
 
+- Technical Discussion Group 1 is full, please join Technical Discussion Group 2
+
 | Technical Discussion Group/技术讨论群 | Model Users Discussion Group/AIGC模型使用讨论群 |
 |----------------------------|------------------------------------------|
 | <img src="./assets/wechat.png" style="width: 70%;" /> | <img src="./assets/wechat2.png" style="width: 70%;" /> |
