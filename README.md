@@ -39,6 +39,7 @@
 
 ## 📰 News
 
+- TwinFlow is accepted to ICLR 2026, see you in 🇧🇷!
 - Thanks to [@mengqin](https://github.com/mengqin) for adapting more compatible [TwinFlow-models workflows in ComfyUI](https://github.com/mengqin/ComfyUI-TwinFlow)! 👏🏻
 - Thanks to [@smthemex](https://github.com/smthemex) for adapting [TwinFlow-models workflows in ComfyUI](https://github.com/smthemex/ComfyUI_TwinFlow)! 👏🏻
 - We release experimental version of faster Z-Image-Turbo!
